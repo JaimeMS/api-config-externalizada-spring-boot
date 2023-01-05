@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ApiConfigExternalizadaSpringBootApplication {
 	
+	//variável definida no arquivo application.properties
 	@Value("${application.name}")
 	private String applicationName;
 	
